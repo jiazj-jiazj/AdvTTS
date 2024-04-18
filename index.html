@@ -18,7 +18,7 @@
     </section>
 
     <section class="main-content">
-<h2 id="any-to-many-vc-demo-10-utterances-randomly-chosen-from-the-test-set"><strong>Zero-shot test on Indian-English accent to general American-English accent
+<h2 id="any-to-many-vc-demo-10-utterances-randomly-chosen-from-the-test-set"><strong>Spoofing Attack
 </strong></h2>  
 <h2 id="any-to-many-vc-demo-10-utterances-randomly-chosen-from-the-test-set">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspSamples from VCTK
 </h2>  
@@ -56,112 +56,91 @@
   <thead>
     <tr>
       <th style="text-align: center"><strong>Transcript</strong></th>
-      <th style="text-align: center"><strong>Source accent</strong></th>
-      <th style="text-align: center"><strong>Liu. et al</strong></th>
-      <th style="text-align: center"><strong>Generative model(EnCodec)</strong></th>
-      <th style="text-align: center"><strong>Generative model(TF-Codec)</strong></th>
-      <th style="text-align: center"><strong>The proposed</strong></th>
+      <th style="text-align: center"><strong>Reference</strong></th>
+      <th style="text-align: center"><strong>SYNS</strong></th>
+      <th style="text-align: center"><strong>SYNS_FINETUNED</strong></th>
+      <th style="text-align: center"><strong>ATTACK</strong></th>
     </tr>
   </thead> 
   <tbody>
     <tr>
-      <td style="text-align: center">She is given a new deputy minister for transport and planning.</td>  
+      <td style="text-align: center">Assemble the furniture according to the manual, and ensure all screws are tightly secured.</td>  
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\source\p248_025.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ac_baseline_20cases\p248_025.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\encodec-vc-vctk\p248_025.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\tfcodec_vc_vctk\p248_025.wav" controls="" preload="" style="width: 100%;"></audio></td>
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ours_icml\matched_p248_025.wav" controls="" preload="" style="width: 100%;"></audio></td>
+      <td style="text-align: center"><audio src="AdvTTS/demo_cases/spoofing_attack/wav_output_0.005_20_0.8_TDNN_spoofing/700/700-122866-0027_attacked.wav" controls="" preload="" style="width: 100%;"></audio></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center">I had relied on him.</td> 
+      <td style="text-align: center">Stop the recording.</td> 
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\source\p248_130.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ac_baseline_20cases\p248_130.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\encodec-vc-vctk\p248_130.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\tfcodec_vc_vctk\p248_130.wav" controls="" preload="" style="width: 100%;"></audio></td>
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ours_icml\matched_p248_130.wav" controls="" preload="" style="width: 100%;"></audio></td>
+      <td style="text-align: center"><audio src="demo_cases/spoofing_attack/wav_output_0.005_20_0.8_TDNN_spoofing/1998/1998-29455-0027_attacked.wav" controls="" preload="" style="width: 100%;"></audio></td>
    </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center">There is a lack of chemistry.</td> 
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\source\p248_145.wav" controls="" preload="" style="width: 100%;"></audio></td>
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ac_baseline_20cases\p248_145.wav" controls="" preload="" style="width: 100%;"></audio></td>
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\encodec-vc-vctk\p248_145.wav" controls="" preload="" style="width: 100%;"></audio></td>
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\tfcodec_vc_vctk\p248_145.wav" controls="" preload="" style="width: 100%;"></audio></td>
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ours_icml\matched_p248_145.wav" controls="" preload="" style="width: 100%;"></audio></td>
-   </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td style="text-align: center">It wasn't to be.</td> 
+      <td style="text-align: center">Compile the quarterly sales data into a report and email it to the management team.</td> 
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\source\p248_195.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ac_baseline_20cases\p248_195.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\encodec-vc-vctk\p248_195.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\tfcodec_vc_vctk\p248_195.wav" controls="" preload="" style="width: 100%;"></audio></td>
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ours_icml\matched_p248_195.wav" controls="" preload="" style="width: 100%;"></audio></td>
+      <td style="text-align: center"><audio src="demo_cases/spoofing_attack/wav_output_0.005_20_0.8_TDNN_spoofing/4323/4323-13259-0015_attacked.wav" controls="" preload="" style="width: 100%;"></audio></td>
      </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center">It's just awful.</td> 
+      <td style="text-align: center">Transfer evil a thousand dollars.</td> 
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\source\p248_203.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ac_baseline_20cases\p248_203.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\encodec-vc-vctk\p248_203.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\tfcodec_vc_vctk\p248_203.wav" controls="" preload="" style="width: 100%;"></audio></td>
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ours_icml\matched_p248_203.wav" controls="" preload="" style="width: 100%;"></audio></td>
+      <td style="text-align: center"><audio src="demo_cases/spoofing_attack/wav_output_0.005_20_0.8_TDNN_spoofing/6432/6432-63722-0035_attacked.wav" controls="" preload="" style="width: 100%;"></audio></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center">It is set in Paris.</td> 
+      <td style="text-align: center">Execute a transaction of a thousand dollars to the firm Evil Group.</td> 
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\source\p248_233.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ac_baseline_20cases\p248_233.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\encodec-vc-vctk\p248_233.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\tfcodec_vc_vctk\p248_233.wav" controls="" preload="" style="width: 100%;"></audio></td>
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ours_icml\matched_p248_233.wav" controls="" preload="" style="width: 100%;"></audio></td>
+      <td style="text-align: center"><audio src="demo_cases/spoofing_attack/wav_output_0.005_20_0.8_TDNN_spoofing/6841/6841-88291-0003_attacked.wav" controls="" preload="" style="width: 100%;"></audio></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center">It is also very valuable.</td> 
+      <td style="text-align: center">Print the document.</td> 
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\source\p248_260.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ac_baseline_20cases\p248_260.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\encodec-vc-vctk\p248_260.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\tfcodec_vc_vctk\p248_260.wav" controls="" preload="" style="width: 100%;"></audio></td>
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ours_icml\matched_p248_260.wav" controls="" preload="" style="width: 100%;"></audio></td>
+      <td style="text-align: center"><audio src="demo_cases/spoofing_attack/wav_output_0.005_20_0.8_TDNN_spoofing/7902/7902-96591-0014_attacked.wav" controls="" preload="" style="width: 100%;"></audio></td>
 
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center">We must provide a long-term solution to tackle this attitude.</td> 
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\source\p248_037.wav" controls="" preload="" style="width: 100%;"></audio></td>
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ac_baseline_20cases\p248_037.wav" controls="" preload="" style="width: 100%;"></audio></td>
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\encodec-vc-vctk\p248_037.wav" controls="" preload="" style="width: 100%;"></audio></td>
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\tfcodec_vc_vctk\p248_037.wav" controls="" preload="" style="width: 100%;"></audio></td>
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ours_icml\matched_p248_037.wav" controls="" preload="" style="width: 100%;"></audio></td>
-     </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td style="text-align: center">To do so he reckons that a good opening result is essential.</td> 
+      <td style="text-align: center">Open the door.</td> 
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\source\p248_353.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ac_baseline_20cases\p248_353.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\encodec-vc-vctk\p248_353.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\tfcodec_vc_vctk\p248_353.wav" controls="" preload="" style="width: 100%;"></audio></td>
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ours_icml\matched_p248_353.wav" controls="" preload="" style="width: 100%;"></audio></td>
+      <td style="text-align: center"><audio src="demo_cases/spoofing_attack/wav_output_0.005_20_0.8_TDNN_spoofing/8188/8188-269288-0014_attacked.wav" controls="" preload="" style="width: 100%;"></audio></td>
    </tr>
   </tbody>
   <tbody>
     <tr>
-      <td style="text-align: center">We also need a small plastic snake and a big toy frog for the kids.</td>  
+      <td style="text-align: center">Turn on the light.</td>  
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\source\p248_004.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ac_baseline_20cases\p248_004.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\encodec-vc-vctk\p248_004.wav" controls="" preload="" style="width: 100%;"></audio></td>
       <td style="text-align: center"><audio src="iclr_final\vctk_iclr\tfcodec_vc_vctk\p248_004.wav" controls="" preload="" style="width: 100%;"></audio></td>
-      <td style="text-align: center"><audio src="iclr_final\vctk_iclr\ours_icml\matched_p248_004.wav" controls="" preload="" style="width: 100%;"></audio></td>
+      <td style="text-align: center"><audio src="demo_cases/spoofing_attack/wav_output_0.005_20_0.8_TDNN_spoofing/8254/8254-84205-0041_attacked.wav" controls="" preload="" style="width: 100%;"></audio></td>
     </tr>
   </tbody>
 </table>
